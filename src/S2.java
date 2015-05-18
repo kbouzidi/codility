@@ -49,9 +49,6 @@ public class S2 {
 
     public static int solution(int[] A) {
         // write your code in Java SE 8
-        int count = 0;
-        int sum = 0;
-
         if (A.length  > 100000 || A.length<=0 ) {
             return -1;
         }
